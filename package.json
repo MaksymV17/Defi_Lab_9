@@ -1,0 +1,16 @@
+{
+  "name": "vertii-lab9",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лабораторна №9: SimpleDAO + MockProtocol (Вертій Максим Олександрович)",
+  "scripts": {
+    "build": "hardhat compile",
+    "lab": "hardhat run scripts/runDaoLab.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@openzeppelin/contracts": "^5.0.2",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.0"
+  }
+}
